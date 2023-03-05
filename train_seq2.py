@@ -320,7 +320,7 @@ def main():
     training_json = 'HW2_1_data/training.json'
     training_feats = 'HW2_1_data/feat'
     testing_json = 'HW2_1_testing_data/testing.json'
-    testing_feats = 'MLDS_hw2_1_data/feat'
+    testing_feats = 'HW2_1_testing_data/feat'
 
     helper = dictionary(training_json, min_word_count=3)
     train_dataset = training_data(label_json=training_json, training_data_path=training_feats, helper=helper, load_into_ram=True)
