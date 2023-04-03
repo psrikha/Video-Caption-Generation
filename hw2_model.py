@@ -179,21 +179,3 @@ if __name__ == '__main__':
         if stp % 10 == 0:
             print(seq_prob.size())
             print(seq_predict.size())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
