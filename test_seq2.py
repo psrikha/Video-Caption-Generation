@@ -1,4 +1,3 @@
-# import libraries
 import sys
 import torch
 import json
